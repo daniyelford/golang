@@ -1,5 +1,11 @@
 # Golang
-<pre> ### Linux Install Golang ```bash sudo apt update sudo apt search golang-go sudo apt search gccgo-go sudo apt install golang-go ``` </pre>
+```bash
+	Linux Install Golang 
+	sudo apt update 
+	sudo apt search golang-go 
+	sudo apt search gccgo-go 
+	sudo apt install golang-go
+```
 
 ------------------------------------------
 `Linux Install Git`

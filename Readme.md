@@ -1,4 +1,4 @@
-# Golang_Codes
+# Golang
 Linux Install Golang
 
 sudo apt update
@@ -23,9 +23,12 @@ Install vscode and git for windows
 
 [Install Git](https://gitforwindows.org)
 
+------------------------------------------
+go mod init golang
 
+go mod tidy
 
-
+------------------------------------------
 
 | ابزار        | کاربرد                   |
 | ------------ | ------------------------ |
@@ -41,7 +44,7 @@ Install vscode and git for windows
 | `go env`     | مشاهده تنظیمات محیطی     |
 | `go clean`   | پاکسازی خروجی‌ها         |
 
-
+------------------------------------------
 
 go tool
 
@@ -54,12 +57,11 @@ go tool
 | **vet**     | بررسی مشکلات رایج (همون که با `go vet` هم اجرا میشه).      |
 | **trace**   | تحلیل رفتار اجرای برنامه به صورت دقیق.                     |
  
-
-
+------------------------------------------
+#bash
 go tool pprof myapp cpu.pprof
 
-or
-
+#go
 package main
 
 import (
@@ -88,6 +90,7 @@ func main() {
 
 go run thisfile.go
 
+------------------------------------------
 
 
  | دستور         | توضیح                                               |
@@ -97,6 +100,4 @@ go run thisfile.go
 | `web`         | تولید نمودار گرافیکی و باز کردنش در مرورگر          |
 | `svg`         | ذخیره نمودار به فرمت SVG                            |
 | `help`        | لیست همه دستورات                                    |
-
-
 

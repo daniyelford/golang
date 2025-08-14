@@ -1,12 +1,12 @@
 # Golang
-<pre> ``` Linux Install Golang sudo apt update sudo apt search golang-go sudo apt search gccgo-go sudo apt install golang-go ``` </pre>
+<pre> ### Linux Install Golang ```bash sudo apt update sudo apt search golang-go sudo apt search gccgo-go sudo apt install golang-go ``` </pre>
 
 ------------------------------------------
-Linux Install Git
+`Linux Install Git`
 
-sudo apt update
+`sudo apt update`
 
-sudo apt-get install git
+`sudo apt-get install git`
 
 ------------------------------------------
 Install vscode and git for windows
@@ -51,7 +51,7 @@ go tool
  
 ------------------------------------------
 `go tool pprof myapp cpu.pprof`
-
+<pre> ```
 package main
 
 import (
@@ -77,6 +77,7 @@ func main() {
 
 	time.Sleep(time.Second)
 }
+ ``` </pre>
 
 go run thisfile.go
 

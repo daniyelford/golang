@@ -1,13 +1,5 @@
 # Golang
-Linux Install Golang
-
-sudo apt update
-
-sudo apt search golang-go
-
-sudo apt search gccgo-go
-
-sudo apt install golang-go
+<pre> ``` Linux Install Golang sudo apt update sudo apt search golang-go sudo apt search gccgo-go sudo apt install golang-go ``` </pre>
 
 ------------------------------------------
 Linux Install Git
@@ -24,9 +16,9 @@ Install vscode and git for windows
 [Install Git](https://gitforwindows.org)
 
 ------------------------------------------
-go mod init golang
+`go mod init golang`
 
-go mod tidy
+`go mod tidy`
 
 ------------------------------------------
 
@@ -58,10 +50,8 @@ go tool
 | **trace**   | تحلیل رفتار اجرای برنامه به صورت دقیق.                     |
  
 ------------------------------------------
-#bash
-go tool pprof myapp cpu.pprof
+`go tool pprof myapp cpu.pprof`
 
-#go
 package main
 
 import (

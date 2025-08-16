@@ -195,6 +195,7 @@ func main() {
 	network.CreateNode()
 	network.CreateNode()
 	network.CreateNode()
+	// 5 times
 
 	for i := 1; i <= 7; i++ {
 		transactions := []Transaction{

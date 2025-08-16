@@ -53,4 +53,8 @@ func main() {
 
 	// fmt.Println(num, name, pi)
 
+	// s := "Hi"
+	// b := []byte(s)
+	// fmt.Println(b) // [72 105]
+
 }

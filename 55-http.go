@@ -8,6 +8,18 @@ import (
 
 // w http.ResponseWriter → مثل خروجی سرور هست، هر چی توش بنویسی، به مرورگر یا کلاینت فرستاده میشه.
 // r *http.Request → اطلاعات درخواست اومده از کاربر (مثل URL، هدرها، پارامترها و ...)
+// in  r *http.Request
+// fmt.Println("Method:", r.Method)       // GET, POST, ...
+// fmt.Println("URL Path:", r.URL.Path)  // مسیر درخواست
+// fmt.Println("Headers:", r.Header)     // هدرها
+// fmt.Println("Query:", r.URL.Query())  // پارامترهای کوئری
+// for post requests data
+// r.ParseForm()
+// fmt.Println(r.FormValue("username"))
+// in w http.ResponseWriter
+// w.Header().Set("Content-Type", "application/json")
+// w.WriteHeader(http.StatusOK)
+// w.Write([]byte(`{"status":"ok"}`))
 func handler(w http.ResponseWriter, r *http.Request) {
 	// رشته‌ی "Hello world" رو به پاسخ HTTP می‌فرسته
 	fmt.Fprintf(w, "Hello world")

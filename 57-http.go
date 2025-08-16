@@ -1,6 +1,8 @@
 package main
 
 // go get github.com/gorilla/mux
+// HTTPS
+// http.ListenAndServeTLS(":443", "cert.pem", "key.pem", nil)
 import (
 	"fmt"
 	"net/http"
@@ -41,4 +43,24 @@ func main() {
 	// شروع سرور
 	fmt.Println("Server started at :9090")
 	http.ListenAndServe(":9090", r)
+
+	// server := &http.Server{
+	// 	Addr: ":8080",
+	// 	Handler: nil, // از DefaultServeMux استفاده می‌کنه
+	// }
+	// server.ListenAndServe()
+
+	// resp, err := http.Get("https://api.example.com/data")
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+	// defer resp.Body.Close()
+	// body, _ := io.ReadAll(resp.Body)
+	// fmt.Println(string(body))
+
+	// req, _ := http.NewRequest("GET", "https://api.example.com/data", nil)
+	// req.Header.Add("Authorization", "Bearer TOKEN")
+	// client := &http.Client{}
+	// resp, err := client.Do(req)
+
 }

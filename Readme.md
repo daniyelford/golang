@@ -110,3 +110,9 @@ go run thisfile.go
 | `svg`         | ذخیره نمودار به فرمت SVG                            |
 | `help`        | لیست همه دستورات                                    |
 
+```bash
+
+go get go.mongodb.org/mongo-driver/mongo
+go get go.mongodb.org/mongo-driver/mongo/options
+
+```

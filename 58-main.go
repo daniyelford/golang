@@ -12,7 +12,7 @@ import (
 // تو Go وقتی مقدار ثابت (constant) تعریف می‌کنی، می‌تونی نوع (type) رو ننویسی. دلیلش اینه که Go می‌تونه خودش از مقدار بفهمه چه نوعیه (type inference)
 // فرقش اینه که وقتی type مشخص نکنی، Go اون constant رو به عنوان untyped constant می‌سازه، که انعطاف بیشتری داره
 
-const apiKey = "d2a37fe2-3152-4915-8f08-070acfbdd5e6" // Replace with your actual API key
+const apiKey = "" // Replace with your actual API key
 const apiUrl = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest"
 
 // تگ json:"price" یعنی وقتی JSON رو به struct تبدیل می‌کنیم، مقدار کلید price در JSON داخل Price ریخته میشه.

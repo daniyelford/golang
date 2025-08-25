@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	apiKey := "AIzaSyBkwlPSthUX0vbI_ltQU8z5ThnOcyKiKrE"
+	apiKey := ""
 	model := "gemini-1.5-pro"
 	apiURL := fmt.Sprintf("https://generativelanguage.googleapis.com/v1/models/%s:generateContent?key=%s", model, apiKey)
 	// یک Reader می‌سازه که از ورودی ترمینال می‌خونه
